@@ -1,0 +1,126 @@
+Created a template to have the setup done to begin coding the project 
+
+Extensions allows you to change how VSCode runs 
+
+Some helpful extensions 
+
+Color highlight - shows you an outline of a color before implementing 
+
+Live Server 
+
+Now to create a template 
+
+Create files for html, JS, and CSS
+
+Now some intelligent autocomplete functions in VS code 
+
+HTML 
+
+< -- gives you option for DOCTYPE HTML 
+
+doc -- gives you option for standard HTML documents - head, body, html element 
+
+Now connect HTML with CSS and JS 
+
+Use link element tag 
+
+link - link element with href 
+
+s - style or script 
+
+ctrl + ? = to make a comment 
+
+With the live server extension, now we can click on go live to look at our work 
+
+Modified title to Template 
+
+Next thing we will do, add a few things within the head 
+In order to import them 
+
+First is fontawesome 
+
+A site that has many icons we csan use for free
+
+We will add to the title in our template so that we don't have to configure every time 
+
+We will use a CDN, content delivery network to simplify the process of adding it 
+
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css
+
+Adding href above style.css
+
+Another trick is word wrap 
+
+alt + Z = will word wrap whatever code is outside the screen 
+
+In font-awesome icon section, copy one of the icons to html file 
+
+<i class="fa-solid fa-mountain"></i>
+
+Now will see icon in the live server 
+
+Web sites look more professional if they have a custom favicon 
+
+Rather than the default globe
+
+Link to article about favicons 
+
+A trick to use google's favicon service 
+
+Can pull a favicon from a site that already exists 
+
+Using google's link
+
+https://www.google.com/s2/u/0/favicons?domain=css-tricks.com
+
+Placing above font awesome in HTML 
+
+ <link rel="icon" type="image/png" href="https://www.google.com/s2/u/0/favicons?domain=jacinto.design">
+
+ Icon as the kind of link, give it a type, which is an image/png, and a link to the design of your personal web page
+ In this case we will use instructor's jacinto.design 
+
+ Now get rid of font awesome icon 
+
+ Next lets add some style 
+
+ html {
+    box-sizing: border-box;
+}
+
+Box sizing of border box 
+
+What this means is anytime you add padding
+That padding will stretch the page 
+
+So lets say you have a page that is 100% of view
+It would make it more than 100% and makes a scroll bar
+
+This prevents padding from adding extra height and width to the page 
+
+Next, for the body 
+
+We will addd a margin of zero 
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: dodgerblue;
+}
+
+Next for the body, we are going to add a margin of zero on all four sides 
+and a min-height 
+
+VH stands for viewport height 
+
+So this means we always want it to stretch the background to the top of the screen 
+
+lets give it a color to make sure we see what is going on 
+
+We will remove background color since template will be plain 
+
+This is all we really need to make a template for the course as a base 
+
+Now we will explore hosting on github and dev tools 
+
+

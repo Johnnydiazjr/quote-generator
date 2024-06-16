@@ -1,0 +1,72 @@
+Now we test out javascript 
+
+lets go into our script.js file 
+
+We are going to use console logging
+
+window.console.log 
+
+We can see data of our Javascript 
+
+Throughout the course we will look at different features of console.log
+
+Now we will move on to upload to github
+
+Create repository 
+
+Give it a name 
+
+Copy HTTPS
+
+Open terminal 
+
+git init 
+git init
+
+Will initialize an empty repository in our folder 
+
+git remote add origin 
+git remode add origin 
+
+add the remote origin then paste in the link
+
+then 
+
+git add. 
+git add. 
+
+then 
+
+git commit -m 'initial commit' 
+git commit -m 'initial commit' 
+
+then finally 
+
+git push origin main
+git push origin main 
+
+Now we have the files on github 
+
+If we make a change 
+
+and add an H1 Tab that says hello world for example 
+
+Open up another terminal
+
+Any time you change three commands 
+
+git add . 
+git commit - m ''
+git push origin main 
+
+Now jump back to repo to see new work 
+
+Go to github page to source main branch 
+
+Now we have a web site where our project is live 
+
+When using github pages, when you enable it for the first time it takes about ten minutes to load
+
+
+
+
